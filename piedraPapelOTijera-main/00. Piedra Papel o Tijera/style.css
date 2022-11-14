@@ -1,0 +1,11 @@
+body{
+    background-image: url(./asset/fondo.gif);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+script{
+    
+}
