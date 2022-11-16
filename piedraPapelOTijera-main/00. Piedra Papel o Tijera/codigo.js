@@ -1,5 +1,4 @@
 const aleatorio = (max, min) => Math.floor(Math.random() * (max - min + 1) + 1)
-
 const eleccion = (elegido) => {
     if (elegido == 1) {
         return "Piedra"
@@ -7,7 +6,7 @@ const eleccion = (elegido) => {
     if (elegido == 2) {
         return "Papel"
     }
-    return (elegido == 3) ? "Tijera" : "no valido"
+    return (elegido == 3) ? "Tijera" : "no valido";
 }
 
 const juego = (escogidoJugador, escogidoPc) => {
@@ -49,5 +48,6 @@ alert("recarga para volver a Jugar")
 
 document.createElement("h1")
 const titulo = document.createElement("h1")
-titulo.innerText = "piedra papel o tijera1"
+titulo.innerText = "piedra papel o tijera :D"
 document.body.appendChild(titulo)
+
